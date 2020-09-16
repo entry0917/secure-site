@@ -1,0 +1,21 @@
+//사이트 링크를 누리기 전에 사이트링크를 여기에 입력해서 악성 사이트인지 알아보세요!
+//
+//악성사이트라면 열리지 않고 악성사이트가 아니라면 사이트가 열린답니다!!
+//
+//사이트 신고 받습니다!! 계속해서 업데이트할게요^^ 현재는 간단한 사이트만 추가되었습니다.
+//
+alert("안전 사이트열기 프로그램을 실행합니다.")
+m1 = prompt("열고 싶은 사이트의 링크를 입력해주세요. https,http까지 입력해주세요")
+if (m1 == 'https://playentry.org/') {
+alert("안전한 엔트리입니다.")
+open(m1)
+} else if (m1 == 'https://playentry.org') {
+alert("안전한 엔트리입니다.")
+open(m1) } else if (m1 == 'https://blow.ga/vitamin303') {
+alert("엄청나게 위험한 사이트입니다. 접근 차단됨.")
+}else if (m1 == 'https://blow.ga/vitamin303/') {
+alert('엄청나게 위험한 사이트입니다. 접근 차단됨.') }
+}else if (m1 == 'https://playentry.org/ds/') {
+alert('안전한 엔트리 커뮤니티 입니다.') }
+else{
+alert("안전한걸로 추정됩니다."),open(m1) }
